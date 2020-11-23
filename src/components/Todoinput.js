@@ -11,6 +11,7 @@ export default class TodoInput extends Component {
                             className='form-control'
                             value={ item } 
                             onChange = { handleChange } 
+                            required
                         />
                         <button className={editItem ? 'btn btn-block btn-success my-3' : 'btn btn-block btn-primary my-3'}>
                             { editItem ? "Edit Item": "Add Item"} 
